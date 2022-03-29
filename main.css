@@ -1,0 +1,32 @@
+:root {
+    --backgroud-color: hsl(216, 12%, 8%);
+    --primary-color: hsl(213, 19%, 18%);
+    --accent-color: hsl(25, 97%, 53%);
+
+    --text-color: hsl(0, 0%, 100%);
+    --text-color-primary: hsl(216, 12%, 54%);
+}
+
+body {
+    background-color: var(--backgroud-color);
+    font-family: 'Overpass', sans-serif;
+
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    padding: 0 20px;
+}
+
+.description p {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--text-color-primary);
+}
+
+.description h1 {
+    font-weight: 700;
+}
+
+.hide {
+    display: none !important;
+}
